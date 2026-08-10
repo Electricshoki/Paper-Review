@@ -1,0 +1,26 @@
+## Before starting
+Lots of people who have used AI (like GPT, Gemini) powered bt LLMs have likely to notice it sometimes produces strange answers.
+This paper focuses in particular on the increasing unreliability of AI with respect to multi-turn and present its solution.
+
+LLM을 이용하는 많은 사람들은 ai가 가끔 이상한 답변을 내놓는다는 것을 안다. 그 문제 중 이 논문은 대화가 지속될 수록 쌓이는 턴에 따라 성능이 감소한다는 것을 보였다.
+
+
+
+## Why LLM has shown low quality in five cases.
+
+1. prematured Answer
+시기 상조의 답변: 추측의 근거가 쌓이지 않은 채로 급하게 정답을 내는 것에 급급할 때 잘못된 답을 내는 경우가 있다.
+
+2. Answer Bloat
+대화가 길어질수록 llm의 답변 또한 길어진다는 것이 발견되었다. 
+
+3. To much dependenty to passed one'
+자신이 말한 말에 대해 너무 큰 자존감을 가지고 있다. 스스로가 내놓은 답변에 대해 이것은 틀리지 않다고 하며 작성된 내용을 계속 붙잡고 늘어진다.
+
+4. Too much information
+너무 길고 현학적인 말투의 경우 문제가 생기는 경우가 많았다.
+
+
+5. ignoreing middle-turn
+
+대화의 첫 시작에 너무 집중을 하고, 결과가 나올 것 같을 때만 집중하지, 중간에서는 집중을 잘 하지 않는 것으로 나타났다.
